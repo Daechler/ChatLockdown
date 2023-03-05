@@ -1,0 +1,11 @@
+name: ChatLockdown
+version: '${project.version}'
+main: net.daechler.chatlockdown.ChatLockdown
+api-version: 1.19
+authors: [ Daechler ]
+description: This plugin can lock down the chat.
+commands:
+  lockdown:
+    description: Permission to use /lockdown
+    usage: /lockdown
+    permission: lockdown.use
